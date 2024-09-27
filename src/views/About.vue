@@ -73,20 +73,27 @@
 				</div>
 			</div>
 			<div
-				class="flex gap-3 mt-28 ml-24 text-3xl font-light text-black max-md:mt-10 max-md:ml-2.5">
+				class="flex gap-3 mt-28 ml-24 max-md:mt-10 max-md:ml-2.5">
 
-          <h2 class="basis-auto" id="section1">
+        <button
+          @click="expandCollapse(1)"
+        type="button"
+          class="flex justify-between"
+        >
             <span class="text-2xl">WORK EXPERIENCE</span>
-          </h2>
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/d530ca9edbd7a290fd48bff2a28a6334b44a299727965e7fc0aed6f0ca8e00dc?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
             alt=""
-            class="object-contain shrink-0 self-start mt-2 w-14 aspect-[2.67]" />
-			</div>
+            class="object-contain shrink-0 self-start mt-2 w-14 aspect-[2.67]"
+            :class="['object-contain', isRotated1 ? 'rotate-180' : '']"/>
+        </button>
+      </div>
+
+<!--section 1-->
 			<div
 				class="shrink-0 mt-3 ml-24 max-w-full border-blue-700 border-solid border-[3px] h-[3px] w-[315px] max-md:ml-2.5" id="section1-Content"></div>
-			<div
+			<div  v-if="isExpanded1"
 				class="self-end mt-3 mr-9 w-full max-w-[1210px] max-md:mr-2.5 max-md:max-w-full">
 				<div class="flex gap-5 max-md:flex-col">
 					<div class="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
@@ -126,31 +133,152 @@
 					</div>
 				</div>
 			</div>
-			<div
-				class="flex gap-5 justify-between mt-32 ml-28 max-w-full text-2xl text-black whitespace-nowrap w-[310px] max-md:mt-10 max-md:ml-2.5">
-				<h2>EDUCATION</h2>
-				<img
-					loading="lazy"
-					src="https://cdn.builder.io/api/v1/image/assets/TEMP/a47f84b4ba1c80251e228dbeac215156d9a7451eb1d5a8142bf41b134597f591?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
-					alt=""
-					class="object-contain shrink-0 self-start mt-1.5 w-14 aspect-[2.67]" />
-			</div>
-			<div
-				class="shrink-0 mt-2.5 ml-24 max-w-full border-blue-700 border-solid border-[3px] h-[3px] w-[315px] max-md:ml-2.5"></div>
-			<div
-				class="flex gap-5 justify-between mt-12 ml-28 max-w-full text-2xl text-black whitespace-nowrap w-[308px] max-md:mt-10 max-md:ml-2.5">
-				<h2>PROJECTS</h2>
-				<img
-					loading="lazy"
-					src="https://cdn.builder.io/api/v1/image/assets/TEMP/d348aff8d24165e3b4293c23860ab5575e6543fcc8b958209bc5fb628b00d88d?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
-					alt=""
-					class="object-contain shrink-0 self-start mt-2 w-14 aspect-[2.67]" />
-			</div>
-			<div
-				class="shrink-0 mt-2.5 ml-24 max-w-full border-blue-700 border-solid border-[3px] h-[3px] w-[315px] max-md:ml-2.5"></div>
+
+<!--      button2-->
+      <button
+          @click="expandCollapse(2)"
+          type="button"
+          class="flex justify-between items-center w-full max-w-28 ml-24 mt-3"
+      >
+        <span class="text-2xl">EDUCATION</span>
+        <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d530ca9edbd7a290fd48bff2a28a6334b44a299727965e7fc0aed6f0ca8e00dc?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
+            alt=""
+            class="object-contain shrink-0 self-start mt-2 w-14 aspect-[2.67]"
+            :class="['object-contain', isRotated2 ? 'rotate-180' : '']"/>
+      </button>
+
+
+      <!--section 2-->
+      <div
+          class="shrink-0 mt-3 ml-24 max-w-full border-blue-700 border-solid border-[3px] h-[3px] w-[315px] max-md:ml-2.5" id="section1-Content"></div>
+      <div  v-if="isExpanded2"
+            class="self-end mt-3 mr-9 w-full max-w-[1210px] max-md:mr-2.5 max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col">
+          <div class="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
+            <div
+                class="mt-6 text-2xl text-black max-md:mt-10 max-md:max-w-full">
+              <h3 class="font-bold">Branding Redesign - E-commerce Company</h3>
+              <ul>
+                <li>
+                  Led a complete rebranding, including logo design and marketing
+                  materials, boosting brand recognition by 25%
+                </li>
+              </ul>
+              <h3 class="font-bold mt-4">UI/UX Design - Mobile App</h3>
+              <ul>
+                <li>
+                  Created user-centered UI/UX designs for a fitness app,
+                  improving user retention by 15%.
+                </li>
+              </ul>
+              <h3 class="font-bold mt-4">
+                Website Redesign - Non-Profit Organization
+              </h3>
+              <ul>
+                <li>
+                  Redesigned the website with a focus on user experience,
+                  resulting in a 40% increase in donations.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-[37%] max-md:ml-0 max-md:w-full">
+            <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/dd8acd5dc39274377154e640963027346391c99f0719614f1252b3a22fc306a1?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
+                alt="Work experience illustration"
+                class="object-contain w-full aspect-[2.1] rounded-[30px] max-md:mt-10" />
+          </div>
+        </div>
+      </div>
+
+<!--      button3-->
+      <button
+          @click="expandCollapse(3)"
+          type="button"
+          class="flex justify-between ml-24 mt-3"
+      >
+        <span class="text-2xl">WORK EXPERIENCE</span>
+        <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d530ca9edbd7a290fd48bff2a28a6334b44a299727965e7fc0aed6f0ca8e00dc?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
+            alt=""
+            class="object-contain shrink-0 self-start mt-2 w-14 aspect-[2.67]"
+            :class="['object-contain', isRotated3 ? 'rotate-180' : '']"/>
+      </button>
+
+
+      <!--section 3-->
+      <div
+          class="shrink-0 mt-3 ml-24 max-w-full border-blue-700 border-solid border-[3px] h-[3px] w-[315px] max-md:ml-2.5" id="section1-Content"></div>
+      <div  v-if="isExpanded3"
+            class="self-end mt-3 mr-9 w-full max-w-[1210px] max-md:mr-2.5 max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col">
+          <div class="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
+            <div
+                class="mt-6 text-2xl text-black max-md:mt-10 max-md:max-w-full">
+              <h3 class="font-bold">Branding Redesign - E-commerce Company</h3>
+              <ul>
+                <li>
+                  Led a complete rebranding, including logo design and marketing
+                  materials, boosting brand recognition by 25%
+                </li>
+              </ul>
+              <h3 class="font-bold mt-4">UI/UX Design - Mobile App</h3>
+              <ul>
+                <li>
+                  Created user-centered UI/UX designs for a fitness app,
+                  improving user retention by 15%.
+                </li>
+              </ul>
+              <h3 class="font-bold mt-4">
+                Website Redesign - Non-Profit Organization
+              </h3>
+              <ul>
+                <li>
+                  Redesigned the website with a focus on user experience,
+                  resulting in a 40% increase in donations.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-[37%] max-md:ml-0 max-md:w-full">
+            <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/dd8acd5dc39274377154e640963027346391c99f0719614f1252b3a22fc306a1?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
+                alt="Work experience illustration"
+                class="object-contain w-full aspect-[2.1] rounded-[30px] max-md:mt-10" />
+          </div>
+        </div>
+      </div>
+
+
 		</section>
 	</main>
 </template>
 <script setup>
+import { ref } from 'vue';
 
+// Create a reactive state for each button's expansion
+const isExpanded1 = ref(false);
+const isExpanded2 = ref(false);
+const isExpanded3 = ref(false);
+const isRotated1 = ref(false);
+const isRotated2 = ref(false);
+const isRotated3 = ref(false);
+
+function expandCollapse(index) {
+  if (index === 1) {
+    isExpanded1.value = !isExpanded1.value;
+    isRotated1.value = !isRotated1.value;
+  } else if (index === 2) {
+    isExpanded2.value = !isExpanded2.value;
+    isRotated2.value = !isRotated2.value;
+  } else if (index === 3) {
+    isExpanded3.value = !isExpanded3.value;
+    isRotated3.value = !isRotated3.value;
+  }
+}
 </script>
