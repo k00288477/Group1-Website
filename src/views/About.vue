@@ -7,8 +7,8 @@
 				class="self-center mt-18 ml-4 text-4xl text-center text-black max-md:mt-10">
 				About Me
 			</h1>
-			<div
-				class="shrink-0 self-center mt-5 max-w-full border-blue-700 border-solid border-[3px] h-[5px] w-[861px]"></div>
+      <div
+      class="shrink-0 self-center mt-5 max-w-full border-blue-700 border-solid border-[3px] h-[5px] w-[861px]"></div>
 			<div
 				class="self-end mt-20 w-full max-w-[1287px] max-md:mt-10 max-md:max-w-full">
 				<div class="flex gap-5 max-md:flex-col">
@@ -101,14 +101,14 @@
 							class="mt-6 text-2xl text-black max-md:mt-10 max-md:max-w-full">
 							<h3 class="font-bold">Branding Redesign - E-commerce Company</h3>
 							<ul>
-								<li>
+								<li class="text-xl">
 									Led a complete rebranding, including logo design and marketing
 									materials, boosting brand recognition by 25%
 								</li>
 							</ul>
 							<h3 class="font-bold mt-4">UI/UX Design - Mobile App</h3>
 							<ul>
-								<li>
+								<li class="text-xl">
 									Created user-centered UI/UX designs for a fitness app,
 									improving user retention by 15%.
 								</li>
@@ -117,7 +117,7 @@
 								Website Redesign - Non-Profit Organization
 							</h3>
 							<ul>
-								<li>
+								<li class="text-xl">
 									Redesigned the website with a focus on user experience,
 									resulting in a 40% increase in donations.
 								</li>
@@ -161,14 +161,14 @@
                 class="mt-6 text-2xl text-black max-md:mt-10 max-md:max-w-full">
               <h3 class="font-bold">Branding Redesign - E-commerce Company</h3>
               <ul>
-                <li>
+                <li class="text-xl">
                   Led a complete rebranding, including logo design and marketing
                   materials, boosting brand recognition by 25%
                 </li>
               </ul>
               <h3 class="font-bold mt-4">UI/UX Design - Mobile App</h3>
               <ul>
-                <li>
+                <li class="text-xl">
                   Created user-centered UI/UX designs for a fitness app,
                   improving user retention by 15%.
                 </li>
@@ -177,7 +177,7 @@
                 Website Redesign - Non-Profit Organization
               </h3>
               <ul>
-                <li>
+                <li class="text-xl">
                   Redesigned the website with a focus on user experience,
                   resulting in a 40% increase in donations.
                 </li>
@@ -221,23 +221,16 @@
                 class="mt-6 text-2xl text-black max-md:mt-10 max-md:max-w-full">
               <h3 class="font-bold">Branding Redesign - E-commerce Company</h3>
               <ul>
-                <li>
+                <li class="text-xl">
                   Led a complete rebranding, including logo design and marketing
                   materials, boosting brand recognition by 25%
-                </li>
-              </ul>
-              <h3 class="font-bold mt-4">UI/UX Design - Mobile App</h3>
-              <ul>
-                <li>
-                  Created user-centered UI/UX designs for a fitness app,
-                  improving user retention by 15%.
                 </li>
               </ul>
               <h3 class="font-bold mt-4">
                 Website Redesign - Non-Profit Organization
               </h3>
               <ul>
-                <li>
+                <li class="text-xl">
                   Redesigned the website with a focus on user experience,
                   resulting in a 40% increase in donations.
                 </li>

@@ -12,7 +12,7 @@
 					class="w-[70px] h-[70px] mr-5" />
         </router-link>
         <router-link to="/">
-				<span class="text-lg font-semibold">Jenny Hughs</span>
+				<span class="text-2xl font-semibold">Jenny Hughs</span>
         </router-link>
 			</div>
 
@@ -20,25 +20,25 @@
 			<div class="flex space-x-4">
 				<router-link
 					to="/"
-					class="text-black hover:text-blue-500"
+							class="text-black hover:text-blue-500 text-2xl"
 					active-class="text-accentBlue"
 					>Home</router-link
 				>
 				<router-link
 					to="/about"
-					class="text-black hover:text-blue-500"
+					class="text-black hover:text-blue-500 text-2xl"
 					active-class="text-accentBlue"
 					>About</router-link
 				>
 				<router-link
 					to="/portofolio"
-					class="text-black hover:text-blue-500"
+					class="text-black hover:text-blue-500 text-2xl"
 					active-class="text-accentBlue"
 					>Portofolio</router-link
 				>
 				<router-link
 					to="/contact"
-					class="text-black hover:text-blue-500"
+					class="text-black hover:text-blue-500 text-2xl"
 					active-class="text-accentBlue"
 					>Contact</router-link
 				>

@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <footer class="flex flex-col justify-evenly items-center px-2 py-8 mt-16 w-full bg-blue-800 max-md:px-1 max-md:py-4 max-md:mt-4 max-md:max-w-full">
+  <footer class="flex flex-col justify-evenly items-center px-2 py-8 mt-12 w-full bg-blue-800 max-md:px-1 max-md:py-4 max-md:mt-4 max-md:max-w-full">
     <div class="mb-0 max-w-full w-[60%] max-md:mb-1.25">
       <div class="flex gap-4 max-md:flex-col justify-between"> <!-- Increased gap for spacing -->
         <div class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">

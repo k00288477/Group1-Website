@@ -1,11 +1,10 @@
 <template>
-	<section class="flex overflow-hidden flex-col items-center pt-8">
-		<h1 class="mt-11 text-4xl text-center text-black max-md:mt-10">
+	<section class="flex overflow-hidden flex-col items-center pt-1">
+		<h1 class="self-center mt-18 ml-4 text-4xl text-center text-black max-md:mt-10">
 			Completed Works
 		</h1>
 		<div
-			class="shrink-0 mt-6 max-w-full border-blue-700 border-solid border-[3px] h-[3px] w-[607px]"
-			aria-hidden="true"></div>
+				class="shrink-0 self-center mt-5 max-w-full border-blue-700 border-solid border-[3px] h-[5px] w-[861px]"></div>
 		<div class="mt-14 max-w-full w-[965px] max-md:mt-10">
 			<div class="flex gap-5 max-md:flex-col">
 				<div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
@@ -17,14 +16,14 @@
 				</div>
 				<div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
 					<article class="flex flex-col items-start text-black max-md:mt-10">
-						<h2 class="text-3xl font-light">
+						<h2 class="text-2xl font-bold">
 							<span class="text-2xl">Project 1</span>
 						</h2>
 						<div
 							class="shrink-0 mt-4 max-w-full border-blue-700 border-solid border-[3px] h-[3px] w-[315px]"
 							aria-hidden="true"></div>
 						<div class="self-stretch mt-6 text-base">
-							<h3 class="font-bold">Branding Redesign - E-commerce Company</h3>
+							<h3 class="font-bold text-xl">Branding Redesign - E-commerce Company</h3>
 							<ul>
 								<li>
 									Led a complete rebranding, including logo design and marketing
