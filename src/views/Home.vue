@@ -1,7 +1,7 @@
 <template>
 	<div
-		class="flex overflow-hidden flex-col pt-1 "
-		style="background-image: url('/src/assets/background.png');">
+		class="flex overflow-hidden flex-col pt-1"
+		:style="backgroundImg">
 		<header
 			class="flex z-10 flex-col px-7 w-full max-md:px-5 max-md:max-w-full">
 			<div class="w-full max-md:max-w-full">
@@ -20,10 +20,8 @@
 										<div class="flex flex-col self-end w-24 text-3xl"></div>
 										<h1 class="mt-2 text-5xl">JENNY</h1>
 										<div
-										class="shrink-0 self-center mt-5 max-w-full border-black border-solid border-[3px] h-[5px] w-[861px]"></div>
+											class="shrink-0 self-center mt-5 max-w-full border-black border-solid border-[3px] h-[5px] w-[861px]"></div>
 										<h1 class="mt-2 text-5xl">HUGHES</h1>
-										
-										
 									</div>
 								</section>
 								<div
@@ -39,8 +37,7 @@
 				loading="lazy"
 				src="https://cdn.builder.io/api/v1/image/assets/TEMP/673d1d35708082e57f43cb7b502765a0a82d2fab7fe7aad8a7f26062415388cd?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
 				alt="Jenny Hughes profile"
-				class="object-contain self-center mt-16 max-w-full aspect-[2.16] rounded-[50px] w-[972px] max-md:mt-10
-				" />
+				class="object-contain self-center mt-16 max-w-full aspect-[2.16] rounded-[50px] w-[972px] max-md:mt-10" />
 		</header>
 		<section class="-mt-3 w-full max-w-[1290px] max-md:max-w-full mb-12">
 			<div class="flex gap-5 max-md:flex-col">
@@ -91,4 +88,11 @@
 	</div>
 </template>
 
-<script setup></script>
+<script setup>
+	import { computed } from "vue";
+	import backgroundImage from "@/assets/background.png";
+
+	const backgroundImg = computed(() => ({
+		backgroundImage: `url(${backgroundImage})`,
+	}));
+</script>
