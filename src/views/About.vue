@@ -25,18 +25,16 @@
 								GRAPHIC <br />DESIGNER
 							</h2>
 							<p
-								class="mt-12 text-xl text-black max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
-								I'm Jenny Hughes. I am passionate about Graphic Design and
-								specialize in digital design and print media. With a keen eye
-								for detail and a love for creative problem-solving.
+								class="mt-3 text-xl text-black max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
+								I am Jenny Hughes, a passionate graphic designer with over 2 years of experience in creating visually compelling designs. My commitment to excellence and continuous learning ensures that I stay at the forefront of industry trends and innovations, enabling me to provide the best possible service to my clients and collaborators.
 							</p>
 							<p
-								class="mt-12 text-xl text-black max-md:mt-10 max-md:max-w-full">
-								I strive to bring ideas to life through visually compelling and
-								effective design solutions. My goal is to craft designs that not
-								only look stunning but also communicate clear messages and drive
-								engagement.
+								class="mt-3 text-xl text-black max-md:mt-10 max-md:max-w-full">
+								My journey in the world of design began with a love for art and technology, which naturally led me to pursue a career in graphic design.
 							</p>
+              <p class="mt-3 text-xl text-black max-md:mt-10 max-md:max-w-full">
+                I believe that great design is not just about aesthetics but also about functionality and storytelling. Every project I undertake is an opportunity to create something unique that resonates with the audience and communicates the intended message effectively.
+              </p>
 							<div
 								class="flex flex-wrap gap-5 justify-between mt-8 max-w-full w-[506px]">
                 <router-link to="/contact">
@@ -80,7 +78,7 @@
         type="button"
           class="flex justify-between"
         >
-            <span class="text-2xl">WORK EXPERIENCE</span>
+            <span class="text-2xl">EDUCATION</span>
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/d530ca9edbd7a290fd48bff2a28a6334b44a299727965e7fc0aed6f0ca8e00dc?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
@@ -99,29 +97,13 @@
 					<div class="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
 						<div
 							class="mt-6 text-2xl text-black max-md:mt-10 max-md:max-w-full">
-							<h3 class="font-bold">Branding Redesign - E-commerce Company</h3>
-							<ul>
-								<li class="text-xl">
-									Led a complete rebranding, including logo design and marketing
-									materials, boosting brand recognition by 25%
-								</li>
-							</ul>
-							<h3 class="font-bold mt-4">UI/UX Design - Mobile App</h3>
-							<ul>
-								<li class="text-xl">
-									Created user-centered UI/UX designs for a fitness app,
-									improving user retention by 15%.
-								</li>
-							</ul>
-							<h3 class="font-bold mt-4">
-								Website Redesign - Non-Profit Organization
-							</h3>
-							<ul>
-								<li class="text-xl">
-									Redesigned the website with a focus on user experience,
-									resulting in a 40% increase in donations.
-								</li>
-							</ul>
+							<h3 class="font-bold">Leaving Certificate, Ireland (2018)</h3>
+							<p>Achieved strong results in subjects like Art, Mathematics, and Computer Science.</p>
+							<p>Actively participated in creative extracurricular activities such as art clubs, design workshops, and coding clubs, which sparked my interest in combining technology with visual design.</p>
+							<h3 class="font-bold mt-4">Bachelor of IT (Specialization in Digital Media), Ireland (2019 - 2023)</h3>
+							<p>Currently in my fourth year, focusing on Graphic Design and Digital Media.</p>
+							<p>Key coursework includes UX Design, Branding, and Web Design.</p>
+							<p>I’m actively involved in various design projects, both academically and personally, where I apply my skills in illustration, branding, and visual storytelling to real-world challenges.</p>
 						</div>
 					</div>
 					<div class="flex flex-col ml-5 w-[37%] max-md:ml-0 max-md:w-full">
@@ -140,7 +122,7 @@
           type="button"
           class="flex justify-between items-center w-full max-w-28 ml-24 mt-3"
       >
-        <span class="text-2xl">EDUCATION</span>
+        <span class="text-2xl">SKILLS</span>
         <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/d530ca9edbd7a290fd48bff2a28a6334b44a299727965e7fc0aed6f0ca8e00dc?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
@@ -159,29 +141,14 @@
           <div class="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
             <div
                 class="mt-6 text-2xl text-black max-md:mt-10 max-md:max-w-full">
-              <h3 class="font-bold">Branding Redesign - E-commerce Company</h3>
-              <ul>
-                <li class="text-xl">
-                  Led a complete rebranding, including logo design and marketing
-                  materials, boosting brand recognition by 25%
-                </li>
-              </ul>
-              <h3 class="font-bold mt-4">UI/UX Design - Mobile App</h3>
-              <ul>
-                <li class="text-xl">
-                  Created user-centered UI/UX designs for a fitness app,
-                  improving user retention by 15%.
-                </li>
-              </ul>
-              <h3 class="font-bold mt-4">
-                Website Redesign - Non-Profit Organization
-              </h3>
-              <ul>
-                <li class="text-xl">
-                  Redesigned the website with a focus on user experience,
-                  resulting in a 40% increase in donations.
-                </li>
-              </ul>
+              <h3 class="font-bold">Graphic Design: Proficient in Adobe Creative Suite (Photoshop, Illustrator, InDesign).</h3>
+              <p>My expertise in graphic design tools allows me to create visually stunning designs that effectively communicate the intended message.</p>
+              <h3 class="font-bold mt-4">Web Design: Experienced in creating responsive and user-friendly web designs.</h3>
+              <p>I have a strong understanding of web design principles and best practices, ensuring that the websites I create are both aesthetically pleasing and functional.</p>
+              <h3 class="font-bold mt-4">Branding: Skilled in developing brand identities that stand out.</h3>
+              <p>I have a keen eye for detail and a deep understanding of branding, which allows me to create unique and memorable brand identities for my clients.</p>
+              <h3 class="font-bold mt-4">Illustration: Passionate about creating custom illustrations.</h3>
+              <p>I love to create custom illustrations that bring a unique and personal touch to a design, making it stand out from the crowd.</p>
             </div>
           </div>
           <div class="flex flex-col ml-5 w-[37%] max-md:ml-0 max-md:w-full">
@@ -200,7 +167,7 @@
           type="button"
           class="flex justify-between ml-24 mt-3"
       >
-        <span class="text-2xl">WORK EXPERIENCE</span>
+        <span class="text-2xl">MY WORK</span>
         <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/d530ca9edbd7a290fd48bff2a28a6334b44a299727965e7fc0aed6f0ca8e00dc?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
@@ -219,22 +186,12 @@
           <div class="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
             <div
                 class="mt-6 text-2xl text-black max-md:mt-10 max-md:max-w-full">
-              <h3 class="font-bold">Branding Redesign - E-commerce Company</h3>
-              <ul>
-                <li class="text-xl">
-                  Led a complete rebranding, including logo design and marketing
-                  materials, boosting brand recognition by 25%
-                </li>
-              </ul>
-              <h3 class="font-bold mt-4">
-                Website Redesign - Non-Profit Organization
-              </h3>
-              <ul>
-                <li class="text-xl">
-                  Redesigned the website with a focus on user experience,
-                  resulting in a 40% increase in donations.
-                </li>
-              </ul>
+              <h3 class="font-bold">Project A: A complete rebranding for a tech startup.</h3>
+              <p>I led a team in rebranding a tech startup, creating a new logo, color scheme, and brand guidelines that better reflected the company's values and mission.</p>
+              <h3 class="font-bold mt-4">Project B: Designing a series of marketing materials for a non-profit organization.</h3>
+              <p>I designed a series of marketing materials for a non-profit organization, including brochures, posters, and social media graphics, to help them raise awareness and funds for their cause.</p>
+              <h3 class="font-bold mt-4">Project C: Creating an interactive website for an e-commerce business.</h3>
+              <p>I designed and developed an interactive website for an e-commerce business, focusing on user experience and conversion optimization, which led to a significant increase in sales and customer satisfaction.</p>
             </div>
           </div>
           <div class="flex flex-col ml-5 w-[37%] max-md:ml-0 max-md:w-full">
