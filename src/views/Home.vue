@@ -6,7 +6,7 @@
 			class="flex z-10 flex-col px-7 w-full max-md:px-5 max-md:max-w-full">
 			<div class="w-full max-md:max-w-full">
 				<div class="flex gap-5 max-md:flex-col">
-					<aside class="flex flex-col w-[30%] max-md:ml-0 max-md:w-full">
+					<aside class="flex flex-col w-[20%] max-md:ml-0 max-md:w-full">
 						<div
 							class="flex gap-4 text-3xl text-center text-black max-md:mt-10"></div>
 					</aside>
@@ -45,11 +45,12 @@
 				<aside class="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
 					<div class="flex flex-col items-center mt-14 w-full max-md:mt-10">
 						<h2
-							class="self-stretch text-6xl font-bold text-center text-black max-md:text-4xl">
+							class="self-stretch text-6xl font-bold text-center text-black max-md:text-4xl cinzel-decorative-bold
+">
 							GRAPHIC <br />DESIGNER
 						</h2>
 						<button
-							class="px-12 pt-5 pb-8 mt-7 ml-6 max-w-full text-3xl text-center text-black bg-orange-300 rounded-md w-[236px] max-md:px-5">
+                class="px-12 py-4 text-2xl mt-2 font-bold text-center text-white bg-amber-400 rounded-md max-md:px-5 hover:bg-amber-200">
 							HIRE ME
 						</button>
 						<nav class="flex gap-3.5 mt-3.5 ml-6 max-w-full w-[218px]">

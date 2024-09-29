@@ -1,6 +1,6 @@
 <template>
 	<main
-		class="flex overflow-hidden flex-col pt-5 bg-white ">
+		class="flex overflow-hidden flex-col pt-1 bg-white ">
 		<section
 			class="flex flex-col items-start px-12 w-full max-md:px-5 max-md:max-w-full">
 			<h1

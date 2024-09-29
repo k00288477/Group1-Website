@@ -62,7 +62,7 @@
 				</div>
 				<div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
 					<article class="flex flex-col items-start text-black max-md:mt-10">
-						<h2 class="text-3xl font-light max-md:ml-0.5">
+						<h2 class="text-3xl font-bold max-md:ml-0.5">
 							<span class="text-2xl">Project 2</span>
 						</h2>
 						<div

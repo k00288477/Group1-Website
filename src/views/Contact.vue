@@ -2,11 +2,12 @@
 	<main
 		class="flex overflow-hidden flex-col items-center px-2 bg-white">
 		<h1
-			class="self-center mt-1 ml-4 text-4xl text-center text-black max-md:mt-5">
-			CONTACT ME
+			class="self-center mt-18 ml-4 text-4xl text-center text-black max-md:mt-10">
+			Contact Me
 		</h1>
 		<div
-			class="shrink-0 mt-1 ml-7 max-w-full border-blue-700 border-solid border-[3px] h-[5px] w-[1043px]"></div>
+        class="shrink-0 self-center mt-5 max-w-full border-blue-700 border-solid border-[3px] h-[5px] w-[861px]"></div>
+
 		<p class="mt-12 text-2xl text-center text-black">
 			CREATIVE | VISUAL | DESIGNER
 		</p>
@@ -30,7 +31,7 @@
 								type="text"
 								id="fullName"
 								name="fullName"
-								class="mt-16 w-[603px] max-md:mt-5 max-md:w-full border-b border-black"
+								class="mt-2 w-[603px] max-md:mt-5 max-md:w-full border-b border-black"
 								aria-label="Enter your full name"
 								v-model="formData.fullName" />
 
@@ -43,7 +44,7 @@
 								type="email"
 								id="email"
 								name="email"
-								class="mt-16 w-[603px] max-md:mt-5 max-md:w-full border-b border-black"
+								class="mt-2 w-[603px] max-md:mt-5 max-md:w-full border-b border-black"
 								aria-label="Enter your email address"
 								v-model="formData.email" />
 
@@ -55,44 +56,47 @@
 								<textarea
 								id="message"
 								name="message"
-								class="mt-20 w-[604px] max-md:mt-5 max-md:w-full border-b border-black"
+								class="mt-2 w-[604px] max-md:mt-5 max-md:w-full border-b border-black"
 								aria-label="Enter your message"
 								v-model="formData.message"></textarea>
-
-							<div class="flex flex-wrap gap-10 mt-20 max-md:mt-5">
+                <span
+                    class="mt-12 mb-0"
+                    id="formErrorMsg"
+                    style="color: red"></span>
+							<div class="flex flex-row gap-10 mt-2 max-md:mt-5">
 								<button
 									type="submit"
-									class="p-4 m-4 max-w-full text-3xl text-center text-white bg-amber-400 rounded-md w-[350px] max-md:px-5 hover:bg-amber-200">
+									class="p-4 m-4 mt-0 max-w-full text-3xl text-center text-white bg-amber-400 rounded-md w-[350px] max-md:px-5 hover:bg-amber-200">
 									CONTACT ME
 								</button>
 								<div class="flex flex-auto gap-4 my-auto">
-										<a
-											href="#"
-											aria-label="Social media link 1">
-											<img
-												loading="lazy"
-												src="https://cdn.builder.io/api/v1/image/assets/TEMP/b9e51661c42e4786ecf1b3dfe78811d0656c41fd83f45c9386fbfa5eae0286c1?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
-												alt=""
-												class="object-contain shrink-0 aspect-[1.26] w-[50px]" />
-										</a>
-										<a
-											href="#"
-											aria-label="Social media link 2">
-											<img
-												loading="lazy"
-												src="https://cdn.builder.io/api/v1/image/assets/TEMP/2e495d489a69828d8a9e5ae776839bb648a1e76d26b422254daab75ebf12a064?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
-												alt=""
-												class="object-contain shrink-0 aspect-[1.26] w-[50px]" />
-										</a>
-										<a
-											href="#"
-											aria-label="Social media link 3">
-											<img
-												loading="lazy"
-												src="https://cdn.builder.io/api/v1/image/assets/TEMP/d04e3acb39b58c3c5489c746d7e38181b546653f77ca88609897df66eb9f2040?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
-												alt=""
-												class="object-contain shrink-0 aspect-[1.28] w-[50px]" />
-										</a>
+                  <a
+                      href="#"
+                      aria-label="Social media link 1">
+                    <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9fdadf5c97be551341a48ab6f8c726d17e380ac3ffe405e8e1a54f68a22146a8?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
+                        alt=""
+                        class="object-contain shrink-0 w-16 aspect-square" />
+                  </a>
+                  <a
+                      href="#"
+                      aria-label="Social media link 2">
+                    <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3c57124d157dfb3ad8ce667e9e2b7c3636d5c5ad633aac77ad9e5b33b2d1ff9f?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
+                        alt=""
+                        class="object-contain shrink-0 w-16 aspect-square" />
+                  </a>
+                  <a
+                      href="#"
+                      aria-label="Social media link 3">
+                    <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/d8b7e3170548c4041422144c638188bfee4ae4d3cca2335cb9f324fc3141bf08?placeholderIfAbsent=true&apiKey=66f6f26cd02343ab858f9a105dd7107f"
+                        alt=""
+                        class="object-contain shrink-0 w-16 aspect-square" />
+                  </a>
 								</div>
 							</div>
 						</form>
@@ -114,9 +118,14 @@ const formData = ref({
 
 const submitForm = () => {
   if (formData.value.fullName && formData.value.email && formData.value.message) {
-    alert('Message sent successfully!');
+    document.getElementById('formErrorMsg').style.color = 'green';
+    document.getElementById('formErrorMsg').innerHTML = 'Thank You, Your query has been submitted';
+    // clear all fields
+    formData.value.fullName = '';
+    formData.value.email = '';
+    formData.value.message = '';
   } else {
-    alert('Please fill in all the fields.');
+    document.getElementById('formErrorMsg').innerHTML = '* Please fill all fields';
   }
 };
 </script>
